@@ -5,7 +5,7 @@ metadata:
     app.kubernetes.io/component: background-controller
     app.kubernetes.io/instance: kyverno
     app.kubernetes.io/part-of: kyverno
-  name: kyverno:background-controller:k10-goldbackuppolicy
+  name: kyverno:create-kasten-policies
 rules:
 - apiGroups:
   - config.kio.kasten.io
