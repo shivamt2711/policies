@@ -1,3 +1,5 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
 resources:
   - disallow-capabilities/disallow-capabilities.yaml
   - disallow-host-namespaces/disallow-host-namespaces.yaml
