@@ -112,7 +112,7 @@ jobs:
           set -e
           kubectl apply -f ./.chainsaw/crds
       - name: Install Chainsaw
-        uses: kyverno/action-install-chainsaw@dd64b5d7b2b7d36fdf701d48ac8b216aa94414db # v0.2.4
+        uses: kyverno/action-install-chainsaw@b2f61a8d0459a65c476ac802514d88e1612b3396 # v0.2.9
       - name: Test with Chainsaw
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
